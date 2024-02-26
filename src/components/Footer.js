@@ -28,11 +28,13 @@ const Footer = () => {
                     <h4>Joseph Szpigiel</h4>
                     <p>FullStack Developer</p>
                     <div className="social">
-                        <h4>
-                            <FaLinkedin size={20} style={
-                                {color: "#fff", marginRight: "1rem",  verticalAlign: "middle"}}/> 
-                                linkedin.com/JosephSzpigiel
-                        </h4>
+                        <a href="https://www.linkedin.com/in/joseph-szpigiel/" target="_blank">
+                            <h4>
+                                <FaLinkedin size={20} style={
+                                    {color: "#fff", marginRight: "1rem",  verticalAlign: "middle"}}/> 
+                                linkedin.com/in/joseph-szpigiel
+                            </h4>
+                        </a>
                     </div>
                 </div>
 
